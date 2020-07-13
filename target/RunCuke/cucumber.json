@@ -1,0 +1,164 @@
+[
+  {
+    "comments": [
+      {
+        "line": 2,
+        "value": "# here is a comments"
+      },
+      {
+        "line": 3,
+        "value": "#below is a tag for identifying of specific tests"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4056626238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Open menu option Camera Drones by howering mouse on Electronics menu",
+        "description": "",
+        "id": "open-ebay.com;open-menu-option-camera-drones-by-howering-mouse-on-electronics-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 231417983,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2182692252,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on the Home Page \"https://www.ebay.com\" of our site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ebay.com",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchItemSteps.i_am_on_the_Home_Page_of_our_site(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224855694,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I move to the menu",
+            "match": {
+              "location": "SearchItemSteps.i_move_to_the_menu(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Menu"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Electronics"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Fashion"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2247560582,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on \"Camera Drones\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Camera Drones",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchItemSteps.click_on_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185091644,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on \"Advanced\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Advanced",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchItemSteps.userClicksOnLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7596357,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should get title of the page \"eBay Search: Advanced Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eBay Search: Advanced Search",
+                  "offset": 32
+                }
+              ],
+              "location": "SearchItemSteps.iShouldGetTitleOfThePage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open ebay.com",
+    "description": "As a client I want to open ebay.com\r\nand navigate to Electronics menu\r\nand open Camera Drones menu option",
+    "id": "open-ebay.com",
+    "keyword": "Feature",
+    "uri": "SearchItem.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@first-TestCase"
+      }
+    ]
+  }
+]
