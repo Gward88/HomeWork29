@@ -1,7 +1,7 @@
 
 # here is a comments
   #below is a tag for identifying of specific tests
-  @first-TestCase
+  @search_Item
   Feature: Open ebay.com
     As a client I want to open ebay.com
     and navigate to Electronics menu

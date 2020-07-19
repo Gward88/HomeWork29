@@ -37,4 +37,8 @@ public class HomePageActions {
     public void clickOnHelpAndContactButton() {
         homePageLocators.helpAndContactLink.click();
     }
+
+    public void clickOnSamsungButton() {
+        homePageLocators.samsungButton.click();
+    }
 }

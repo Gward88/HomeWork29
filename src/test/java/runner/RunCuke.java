@@ -17,7 +17,7 @@ import java.util.Map;
                 "com.cucumber.listener.ExtentCucumberFormatter"},
         features = "src/test/resources/features",
         glue = "steps",
-        tags = {"@first-TestCase"}
+        tags = {}
 )
 public class RunCuke extends AbstractTestNGCucumberTests {
 

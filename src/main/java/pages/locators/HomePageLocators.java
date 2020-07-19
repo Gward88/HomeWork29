@@ -18,4 +18,7 @@ public class HomePageLocators {
 
     @FindBy(how = How.LINK_TEXT, using = "Advanced")
     public WebElement advancedLink;
+
+    @FindBy(xpath = "//*[@id=\"mainContent\"]/div[1]/ul/li[3]/div[2]/div[1]/div[2]/ul/li[2]/a")
+    public WebElement samsungButton;
 }

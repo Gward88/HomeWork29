@@ -1,6 +1,6 @@
 # new feature
 # Tags: optional
-
+@Help_Contact
 Feature:  Open ebay.com
   As a client I want to open ebay.com
   and navigate to Help&Contact
